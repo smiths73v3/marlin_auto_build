@@ -31,7 +31,7 @@ runs:
         node-version: '16'
     - uses: actions/setup-python@v2
       with:
-        python-version: '3.9'
+        python-version: '3.10'
     - run: pip install -U platformio
       shell: bash
     - run: cd marlin_auto_build && npm install
